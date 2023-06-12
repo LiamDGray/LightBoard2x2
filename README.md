@@ -1,9 +1,6 @@
 High-power 2x2 LED board based on PicoBuck LED Driver
 ===================
 
-[![PicoBuck](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/8/5/0/11850-01_medium.jpg)  
-*PicoBuck LED Driver (COM-11850)*](https://www.sparkfun.com/products/11850)
-
 Repository Contents
 -------------------
 TBD
