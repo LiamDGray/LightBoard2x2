@@ -1,0 +1,123 @@
+* LUXEON Rebel, ES, H and Midpower 5630 Diode Models Revision 03-26-2012
+*
+* Copyright (c) 2012, Philips Lumileds Lighting Company.   All rights reserved.
+*
+* WARNING: VF diode model is accurate for following current ranges:
+*          350mA binned parts: 	0.1A to 1A
+*          LUXEON Rebel ES: 	0.1A to 1.5A 
+*          LUXEON H: 		5mA to 60mA
+*	   Midpower 5630:       10mA to 150mA
+*
+* SPICE model is provided for each VF bin (when applicable) or grouped by device average
+* 
+* Model generated at 25°C
+*
+* White binned at 350mA
+.model LXMA-PW01-VFBin_C D(Is=3.0749e-15 Rs=0.2797 N=3.4778 mfg=Lumileds type=LED)
+.model LXMA-PW01-VFBin_D D(Is=3.4288e-11 Rs=0.3057 N=5.2188 mfg=Lumileds type=LED)
+.model LXMA-PW01-VFBin_E D(Is=1.1155e-09 Rs=0.3410 N=6.4431 mfg=Lumileds type=LED)
+.model LXMA-PW01-VFBin_F D(Is=5.7680e-08 Rs=0.4115 N=8.5775 mfg=Lumileds type=LED)
+.model LXMA-PW01-VFBin_G D(Is=1.7159e-06 Rs=0.5122 N=11.4792 mfg=Lumileds type=LED)
+.model LXML-PWC1-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXML-PWC1-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXML-PWC1-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXML-PWC1-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXML-PWC1-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXML-PWN1-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXML-PWN1-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXML-PWN1-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXML-PWN1-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXML-PWN1-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXML-PW11-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXML-PW11-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXML-PW11-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXML-PW11-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXML-PW11-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXML-PW21-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXML-PW21-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXML-PW21-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXML-PW21-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXML-PW21-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXML-PW31-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXML-PW31-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXML-PW31-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXML-PW31-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXML-PW31-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXML-PW51-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXML-PW51-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXML-PW51-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXML-PW51-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXML-PW51-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXML-PW71-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXML-PW71-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXML-PW71-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXML-PW71-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXML-PW71-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXM3-PW51-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXM3-PW51-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXM3-PW51-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXM3-PW51-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXM3-PW51-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXM3-PW61-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXM3-PW61-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXM3-PW61-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXM3-PW61-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXM3-PW61-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXM3-PW71-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXM3-PW71-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXM3-PW71-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXM3-PW71-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXM3-PW71-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXM3-PW81-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXM3-PW81-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXM3-PW81-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXM3-PW81-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXM3-PW81-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXML-PWW1-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXML-PWW1-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXML-PWW1-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXML-PWW1-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXML-PWW1-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXM8-PW27-VFBin_R D(Is=2.5153E-16 Rs=0.3584 N=3.1556 mfg=Lumileds type=LED)
+.model LXM8-PW27-VFBin_S D(Is=3.6124E-12 Rs=0.4539 N=4.5259 mfg=Lumileds type=LED)
+.model LXM8-PW27-VFBin_T D(Is=8.7087E-09 Rs=0.5964 N=6.9100 mfg=Lumileds type=LED)
+.model LXM8-PW30-VFBin_R D(Is=2.5153E-16 Rs=0.3584 N=3.1556 mfg=Lumileds type=LED)
+.model LXM8-PW30-VFBin_S D(Is=3.6124E-12 Rs=0.4539 N=4.5259 mfg=Lumileds type=LED)
+.model LXM8-PW30-VFBin_T D(Is=8.7087E-09 Rs=0.5964 N=6.9100 mfg=Lumileds type=LED)
+*
+* LUXEON Rebel ES binned at 700mA
+.model LXML-PWC2-VFBin_R D(Is=5.6664E-17 Rs=0.1919 N=2.9519 mfg=Lumileds type=LED)
+.model LXML-PWC2-VFBin_S D(Is=3.6528E-13 Rs=0.2110 N=4.0323 mfg=Lumileds type=LED)
+.model LXML-PWC2-VFBin_T D(Is=1.6213E-10 Rs=0.2426 N=5.4770 mfg=Lumileds type=LED)
+.model LXML-PWN2-VFBin_R D(Is=5.6664E-17 Rs=0.1919 N=2.9519 mfg=Lumileds type=LED)
+.model LXML-PWN2-VFBin_S D(Is=3.6528E-13 Rs=0.2110 N=4.0323 mfg=Lumileds type=LED)
+.model LXML-PWN2-VFBin_T D(Is=1.6213E-10 Rs=0.2426 N=5.4770 mfg=Lumileds type=LED)
+*
+* InGaN Color at 350mA
+.model LXML-PR01-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXML-PR01-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXML-PR01-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXML-PR01-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXML-PR01-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED
+.model LXM2-PL01-VFBin_C D(Is=9.9054E-16 Rs=0.3672 N=3.2997 mfg=Lumileds type=LED)
+.model LXM2-PL01-VFBin_D D(Is=1.5264E-11 Rs=0.4785 N=4.8316 mfg=Lumileds type=LED)
+.model LXM2-PL01-VFBin_E D(Is=1.2192E-08 Rs=0.6093 N=7.0727 mfg=Lumileds type=LED)
+.model LXM2-PL01-VFBin_F D(Is=7.7010E-07 Rs=0.7860 N=10.1428 mfg=Lumileds type=LED)
+.model LXM2-PL01-VFBin_G D(Is=1.6973E-06 Rs=0.7700 N=11.2454 mfg=Lumileds type=LED)
+.model LXML-PB01-average D(Is=1.3869e-6 Rs=.3958 N=11.1953 mfg=Lumileds type=LED)
+.model LXML-PE01-average D(Is=1.9474e-7 Rs=.4891 N=8.1120 mfg=Lumileds type=LED)
+.model LXML-PM01-average D(Is=8.0330e-8 Rs=.4818 N=7.0005 mfg=Lumileds type=LED)
+*
+* AlInGaP Color 350mA
+.model LXML-PL01-average D(Is=7.7990e-15 Rs=1.5470 N=2.7626 mfg=Lumileds type=LED)
+.model LXML-PH01-average D(Is=3.0677e-10 Rs=2.1217 N=4.2190 mfg=Lumileds type=LED)
+.model LXML-PD01-average D(Is=3.5669e-7 Rs=2.4444 N=6.5192 mfg=Lumileds type=LED)
+*
+* LUXEON H binned at 20mA
+.model LXAC-PWxx-VfBin_H D(Is=1.2389E-19 Rs=54.8794 N=49.5504 mfg=Lumileds type=LED)
+.model LXAC-PWxx-VfBin_J D(Is=1.1925E-16 Rs=76.9652 N=61.7202 mfg=Lumileds type=LED)
+.model LXAC-PWxx-VfBin_K D(Is=1.2572E-14 Rs=99.6833 N=74.5115 mfg=Lumileds type=LED)
+.model LXAC-PWxx-VfBin_L D(Is=7.6158E-14 Rs=118.889 N=81.1373 mfg=Lumileds type=LED)
+*
+* Midpower 5630 binned at 100mA
+.model MXLx-PWxx D(Is=2.3275e-19 Rs=2.4475 N=2.7088 mfg=Lumileds type=LED)

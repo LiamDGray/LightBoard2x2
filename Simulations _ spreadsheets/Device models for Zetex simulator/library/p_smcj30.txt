@@ -1,0 +1,36 @@
+**********************************
+* Copyright:                     *
+*   Thomatronik GmbH, Germany    *
+*   info@thomatronik.de          *
+**********************************
+*   PSPICE
+* Bidirectional
+.SUBCKT smcj30ca 1 2
+DF 9 90 DFMOD 
+.MODEL DFMOD D N = 2 IS = 5E-008 RS = 0.00430659
++ EG = 1.11 XTI = 3
++ CJO = 2E-009 VJ = 1.66626 M = 0.42 FC = 0.5
++ TT = 1E-008 T_MEASURED = 25 T_ABS = 25
+* Leakage
+RLF 9 90 RLMOD 3.19317E+007
+RLR 1 9 RLMOD 3.19317E+007
+.MODEL RLMOD RES TC1 = 0 TC2 = 0 T_MEASURED = 25
+* Breakdown
+RBD 90 4 0.401405
+EBD 4 3 10 20 1
+DBD 3 9 DBDMOD 
+* Reverse
+DR 9 1 DFMOD 
+RBDR 1 94 0.401405
+EBDR 94 93 10 20 1
+DBDR 93 9 DBDMOD 
+.MODEL DBDMOD D IS = 1E-015 N = 0.5 T_MEASURED = 25 T_ABS = 25
+IBVC 0 10 0.001
+RBVC 10 0 RBVCMOD 35050
+.MODEL RBVCMOD RES TC1 = 0 T_MEASURED = 25
+RBDX 20 23 0.401405
+DBVC 23 22 DBDMOD
+DBVF 22 0 DFMOD
+IBVD 0 20 0.001
+L1 90 2 1E-015
+.ENDS
