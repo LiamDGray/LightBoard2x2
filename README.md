@@ -18,9 +18,9 @@ High-power 2x2 LED board based on PicoBuck LED Driver
 
 License Information
 -------------------
-- The hardware is released under [Creative Commons Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0/).  Please feel free to do anything you want with it; just keep this license attached.
+- The hardware is released under [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](http://creativecommons.org/licenses/by-sa/3.0/).  Please feel free to do anything you want with it; just keep this license attached.
 - You're welcome to sponsor my work through [Github Sponsors](https://github.com/sponsors/LiamDGray/).
-- I designed this in 2015 for [Traxda, LLC](https://www.traxda.com/) in Tucson, Arizona, USA.
+- I designed this board in 2015 for [Traxda, LLC](https://www.traxda.com/) in Tucson, Arizona, USA.
 - My starting point was the [SparkFun PicoBuck](https://github.com/sparkfun/PicoBuck) LED driver, which was a collaboration with Ethan Zonca.
 - I used Eagle CAD 7.2.0 (a version current in early 2015).
 - I added thermal foldback and dimming.
