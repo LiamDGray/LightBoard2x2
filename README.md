@@ -27,6 +27,6 @@ High-power 2x2 LED board based on PicoBuck LED Driver
 - I added thermal foldback and dimming.
 - I designed this board in 2015 at the request of [Traxda, LLC](https://www.traxda.com/) in Tucson, Arizona, USA.
 - This was my first LED board, my first constant-current power supply, my first use of thermal foldback, my first dimming LED driver, and my first PCB. Back in 2015, I fabricated multiple iterations of the board and did basic functional testing, but I was unable to find a subcontractor with the equipment to test for electromagnetic compatibility (EMC) or otherwise review my design. My client, Traxda, opted not to have me finish, and I moved on to other things.
-- In 2023, I am thinking of using the design for something related to LiFi and OpenVLC.
+- In 2023, I am thinking of adapting the design for something related to LiFi and OpenVLC.
 - If you have any suggestions, please open an issue or, better yet, make a pull request!
 - You're welcome to sponsor my work through [Github Sponsors](https://github.com/sponsors/LiamDGray/).
