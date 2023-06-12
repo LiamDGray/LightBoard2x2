@@ -18,12 +18,11 @@ High-power 2x2 LED board based on PicoBuck LED Driver
 
 License Information
 -------------------
-- The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
-
-- Please feel free to do anything you want with it. Please consider sponsoring me through [Github Sponsors](https://github.com/sponsors/LiamDGray/).
- 
+- The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  Please feel free to do anything you want with it; just keep this license attached.
+- Please consider sponsoring me through [Github Sponsors](https://github.com/sponsors/LiamDGray/).
 - I designed this in 2015 for Traxda, LLC, Tucson, Arizona, USA.
-
-- Originally, it was based on the SparkFun PicoBuck LED Driver, which was a collaboration with Ethan Zonca.
-
+- My starting point was the SparkFun PicoBuck LED Driver, which was a collaboration with Ethan Zonca.
+- I used Eagle 7.2.6 (a version current in early 2015).
 - I added thermal foldback and dimming.
+- This was my first LED board, my first constant-current power supply, my first use of thermal foldback, my first dimming LED driver, and my first PCB.
+- If you have any suggestions, please open an issue or, better yet, make a pull request!
